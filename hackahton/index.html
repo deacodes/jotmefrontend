@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c2aeb8e94c.js" crossorigin="anonymous"></script>
+
+  <title>JotMe</title>
+
+</head>
+
+<body>
+  <i class="fa-solid fa-star backgroundstar cyan"></i>
+  <i class="fa-solid fa-star backgroundstar pink"></i>
+  <i class="fa-solid fa-star backgroundstar purple"></i>
+  <i class="fa-solid fa-star backgroundstar yellow"></i>
+  <nav class="glossy">
+    <img src="assets/logo.png" alt="" width="120px">
+    <ul>
+      <li><a href="index.html">Entries</a></li>
+      <li><a href="stats.html">Stats</a></li>
+    </ul>
+  </nav>
+
+  <div id="main">
+    <div id="allentries" class="glossy">
+      <div class="entries">
+        <h1>Your Entries</h1>
+        <hr>
+        <div class="entry glossy">
+          <h4 class="entryname">Entry Name</h4>
+          <p class="moodscore">20</p>
+        </div>
+        <div class="entry glossy">
+          <h4 class="entryname">Entry Name</h4>
+          <p class="moodscore">40</p>
+        </div>
+        <div class="entry glossy">
+          <h4 class="entryname">Entry Name</h4>
+          <p class="moodscore">60</p>
+        </div>
+        <div class="entry glossy">
+          <h4 class="entryname">Entry Name</h4>
+          <p class="moodscore">80</p>
+        </div>
+        <div class="entry glossy">
+          <h4 class="entryname">Entry Name</h4>
+          <p class="moodscore">100</p>
+        </div>
+      </div>
+      <div class="buttonsec">
+        <button>Add Entry</button>
+      </div>
+    </div>
+    <div id="selectedentry" class="glossy">
+      <div class="titleitems">
+        <h2 id="nameofentry">Name of Entry</h2>
+        <h3 id="dateofentry">date of entry</h3>
+      </div>
+     <textarea name="entrytext" id="entrytext">It’s strange. I slept 9 hours last night, but I still woke up feeling like I hadn’t rested at all. My head was foggy, like there was static in my brain. I didn’t want to get up, but I forced myself to because I knew if I stayed in bed, I’d start spiraling.
+
+      I tried to go through the motions — brushed my teeth, made coffee, even opened my laptop and stared at my to-do list. It felt like looking at a wall of expectations I had no energy to climb.
+      
+      I haven’t really talked to anyone today. I ignored a couple of texts, not because I was upset with anyone, but because I didn’t know how to be social when I didn’t feel like a person. Is that weird?
+      
+      I feel like I’m running on autopilot lately. Like I’m doing all the right things on the outside, but inside, I feel numb. Not sad exactly, just… flat. It’s hard to explain. I’ve been reading articles about burnout and emotional exhaustion, and honestly, it feels a little too accurate.
+      
+      The worst part is, nothing “bad” is happening. I’m not in a crisis. I’m not fighting with anyone. No drama, no disasters — just this dull, heavy weight that won’t go away. It makes me feel guilty, like I don’t have the right to feel this way when other people are going through worse.
+      
+      But even with all that… I know this won’t last forever. There’s still a tiny part of me that wants to get better, that’s holding on. I saw a tree today — yeah, super random — but it had this one bright yellow leaf on it, and for some reason it made me smile. Just for a second.
+      
+      I guess that’s something, right? One second is still something. I’ll take that.</textarea>
+      
+      <div class="suggestedprompts">
+        <p>First prompt</p>
+        <p>second prompt</p>
+        <p>third prompt</p>
+        <button id="saveentrybutton">Save Entry</button>
+      </div>
+    </div>
+    
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
